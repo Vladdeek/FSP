@@ -2,6 +2,7 @@ function changeTheme() {
 	const button = document.querySelector('.theme-btn')
 	const iconImage = button
 	const root = document.documentElement
+	const gradientText = document.querySelector('.name-slide')
 
 	// Меняем изображение и цвета
 	if (iconImage.src.includes('img/free-icon-half-moon-8098397.png')) {
@@ -12,7 +13,7 @@ function changeTheme() {
 	} else {
 		iconImage.src = 'img/free-icon-half-moon-8098397.png' // Путь к изображению для дневной темы
 		root.style.setProperty('--text-color', '#1b1c21') // Текст для дневной темы
-		root.style.setProperty('--bg-color', '#ededed') // Фон для дневной темы
-		root.style.setProperty('--color', '#d9d9d9') // Цвет для дневной темы
+		root.style.setProperty('--color', '#ededed') // Фон для дневной темы
+		root.style.setProperty('--bg-color', '#eaeaea') // Цвет для дневной темы
 	}
 }

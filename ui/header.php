@@ -1,8 +1,7 @@
 <div class="header-box d-flex align-items-center justify-content-between">
     <div class="branding d-flex align-items-center">
         <div class="logo-box d-flex align-items-center">
-            <img class="img-logo" src="img/logo.png" alt="logo.png">
-            <p class="short-name text-uppercase">фсп</p>
+            <img class="img-logo" src="img/logo.svg" alt="logo.png">
         </div>
         <p class="full-name">федерация спортивного программирования МЛТ</p>
     </div>
