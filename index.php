@@ -23,5 +23,6 @@
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/change.theme.script.js"></script>
+    <script src="js/auto.slider.script.js"></script>
 </body>
 </html>
