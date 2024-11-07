@@ -18,7 +18,23 @@ body {
 	border-radius: 0 0 20px 20px;
 	padding: 24px;
 }
-
+.footer-box {
+	display: flex;
+	background-color: var(--color);
+	width: 95%;
+	height: auto;
+	margin-left: 2.5%;
+	border-radius: 20px 20px 0 0;
+	padding: 24px;
+}
+.footer-content {
+	text-decoration: none;
+	color: var(--text-color);
+}
+a.footer-content:hover {
+	text-decoration: underline;
+	color: var(--text-color);
+}
 .img-logo {
 	width: 75px;
 	height: 75px;
