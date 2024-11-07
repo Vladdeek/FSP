@@ -1,15 +1,10 @@
 :root {
 	--text-color: #1b1c21;
-	--text-gradient1: linear-gradient(
+	--gradient: linear-gradient(
 		45deg,
 		rgba(255, 106, 0, 1) 0%,
 		rgba(238, 9, 121, 1) 50%,
 		rgba(0, 154, 255, 1) 100%
-	);
-	--text-gradient2: linear-gradient(
-		45deg,
-		rgba(72, 0, 255, 1) 0%,
-		rgba(252, 69, 202, 1) 100%
 	);
 	--bg-color: #eaeaea;
 	--color: #ededed;
@@ -142,7 +137,7 @@ a.footer-content:hover {
 	font-size: 35px;
 	margin: 0;
 	margin-right: -1.5%;
-	background-image: var(--text-gradient1);
+	background-image: var(--gradient);
 	-webkit-background-clip: text;
 	color: transparent;
 }
