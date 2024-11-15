@@ -24,16 +24,19 @@
                         <strong>"Федерация спортивного программирования ЛНР"</strong> - региональное отделение Общероссийской физкультурно-спортивной общественной организации «Федерация спортивного программирования России» по Луганской Народной Республике.
                     </p> 
                 </div>
-                <div class="col-12">
-                    <p class="title text-start">Новости</p>
+                <div class="container">
+                    <div class="col-12">
+                        <p class="title text-start">Новости</p>
+                        <div class="row">
+                            <?php include("ui/info-card.php");?>
+                            <?php include("ui/info-card.php");?>
+                            <?php include("ui/info-card.php");?>
+                            <?php include("ui/info-card.php");?>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <?php include("ui/info-card.php");?>
-        <?php include("ui/info-card.php");?>
-        <?php include("ui/info-card.php");?>
-        <?php include("ui/info-card.php");?>
-
     </section>
     <footer>
         <?php include("ui/footer.php");?>

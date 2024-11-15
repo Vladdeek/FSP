@@ -8,6 +8,12 @@
 	);
 	--bg-color: #eaeaea;
 	--color: #ededed;
+	--card-color1: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(27, 27, 27) 100%);
+	--card-color2: linear-gradient(
+		0deg,
+		rgb(234, 234, 234) 0%,
+		rgb(227, 255, 251) 100%
+	);
 }
 body {
 	background-color: var(--bg-color);
@@ -18,6 +24,7 @@ body {
 svg {
 	height: 50px;
 	width: auto;
+	fill: white;
 }
 svg path:last-of-type {
 	fill: var(--text-color); /* Установите нужный цвет */
@@ -110,9 +117,6 @@ a.footer-content:hover {
 		box-shadow: 0 6px 0 var(--text-color), 0 -6px 0 var(--text-color); /* Две дополнительные полосы */
 	}
 }
-svg {
-	fill: white;
-}
 .theme-btn {
 	width: 30px;
 	height: 30px;
@@ -187,30 +191,35 @@ svg {
 .info-card {
 	width: 95%;
 	height: auto;
-	background-color: var(--color);
+	background-color: transparent;
 	border-radius: 20px;
 	padding: 20px;
 	transition: 0.2s;
 	margin: 15px 2.5%;
-	border: solid 1px rgba(0, 0, 0, 0.1);
+	border: none;
 }
 .info-card:hover {
 	filter: brightness(1.075);
+	background-color: var(--bg-color);
 	border: solid 1px rgba(0, 0, 0, 0.25);
 }
 .card-img {
-	width: 255px;
-	height: 100%;
+	width: 100%;
+	height: auto;
 	margin-right: 20px;
 	border-radius: 10px;
 }
 .publish-date {
-	background-color: var(--color);
 	filter: contrast(1.5);
 	border-radius: 25px;
 	display: inline-block;
 	padding: 0 5px;
 	width: auto;
+	margin: 2px;
+	color: var(--gradient);
+	background-image: var(--gradient);
+	-webkit-background-clip: text;
+	color: transparent;
 }
 .title {
 	font-size: 30px;
@@ -223,4 +232,57 @@ svg {
 }
 .description {
 	font-size: 18px;
+}
+.about-title {
+	font-size: 30px;
+	font-weight: 400;
+}
+.about-info {
+	font-size: 25px;
+	font-weight: 600;
+}
+.about-text {
+	font-size: 15px;
+	font-weight: 400;
+}
+.about-info#card1 {
+	background-image: var(--gradient);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.about-text#card1 {
+	filter: invert(1);
+}
+
+.card-container {
+	width: 95%;
+	background-color: white;
+	border-radius: 20px;
+	margin: 5% 2.5%;
+	padding: 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+.card-container#card1 {
+	background-image: var(--card-color1);
+}
+.card-container#card2 {
+	padding: 60px 10px;
+}
+.card-container#card3 {
+	padding: 50px 10px;
+}
+.card-container#card4 {
+	padding: 30px 10px;
+}
+.card-container#card5 {
+	padding: 125px 10px;
+	background-image: var(--card-color2);
+}
+.about-date {
+	font-size: 20px;
+	font-weight: 400;
+}
+.about-description {
+	font-size: 19px;
+	font-weight: 200;
 }
