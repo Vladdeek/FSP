@@ -26,7 +26,7 @@
                 </div>
                 <div class="container">
                     <div class="col-12">
-                        <p class="title text-start">Новости</p>
+                        <p class="title text-start">Мероприятия</p>
                         <div class="row">
                             <?php include("ui/info-card.php");?>
                             <?php include("ui/info-card.php");?>

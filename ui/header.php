@@ -16,11 +16,11 @@
             <!-- Выпадающее меню -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <div class="navigation d-flex flex-wrap">
-                    <a href="#" class="nav-link text-uppercase">о федерации</a>
+                    <a href="about.php" class="nav-link text-uppercase">о федерации</a>
                     <a href="#" class="nav-link text-uppercase">структура</a>
-                    <a href="#" class="nav-link text-uppercase">дисциплины</a>
-                    <a href="#" class="nav-link text-uppercase">мероприятия</a>
-                    <a href="#" class="nav-link text-uppercase">новости</a>
+                    <a href="descepline.php" class="nav-link text-uppercase">дисциплины</a>
+                    <a href="mer.php" class="nav-link text-uppercase">мероприятия</a>
+                    <a href="news.php" class="nav-link text-uppercase">новости</a>
                     <a href="#" class="nav-link text-uppercase">галерея</a>
                     <a href="#" class="nav-link text-uppercase">контакты</a>
                 </div>
