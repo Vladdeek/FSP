@@ -250,8 +250,17 @@ a.footer-content:hover {
 	-webkit-background-clip: text;
 	color: transparent;
 }
+.about-info#desc {
+	font-size: 18px;
+	font-weight: 600;
+}
 .about-text#card1 {
 	filter: invert(1);
+}
+.about-text#desc {
+	font-size: 12px;
+	font-weight: 400;
+	margin: 2.5%;
 }
 
 .card-container {
@@ -285,4 +294,32 @@ a.footer-content:hover {
 .about-description {
 	font-size: 19px;
 	font-weight: 200;
+}
+.card-img-title {
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	margin-right: 5%;
+	margin-left: 2.5%;
+	margin-bottom: 15px;
+}
+.card-container#desc1 {
+	padding: 20px 10px;
+}
+.card-container#desc2 {
+	padding: 70px 10px;
+}
+.card-container#desc3 {
+	padding: 55px 10px;
+}
+.card-container#desc4 {
+	padding: 35px 10px;
+}
+.card-container#desc5 {
+	padding-bottom: 70px;
+}
+.card-img-title#desc {
+	margin-top: 10px;
+	width: 95%;
+	height: auto;
 }
