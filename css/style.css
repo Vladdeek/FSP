@@ -15,6 +15,13 @@ body {
 	color: var(--text-color);
 	font-weight: 400;
 }
+svg {
+	height: 50px;
+	width: auto;
+}
+svg path:last-of-type {
+	fill: var(--text-color); /* Установите нужный цвет */
+}
 .header-box {
 	display: flex;
 	background-color: var(--color);
@@ -51,11 +58,6 @@ a.footer-content:hover {
 	.footer-content {
 		font-size: 8px;
 	}
-}
-.img-logo {
-	width: 150px;
-	height: auto;
-	margin: 0;
 }
 .short-name {
 	font-weight: 800;
@@ -108,11 +110,14 @@ a.footer-content:hover {
 		box-shadow: 0 6px 0 var(--text-color), 0 -6px 0 var(--text-color); /* Две дополнительные полосы */
 	}
 }
+svg {
+	fill: white;
+}
 .theme-btn {
 	width: 30px;
 	height: 30px;
 	cursor: pointer;
-	color: var(--text-color);
+	filter: invert(0);
 }
 .slider {
 	height: auto;
