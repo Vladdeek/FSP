@@ -323,3 +323,113 @@ a.footer-content:hover {
 	width: 95%;
 	height: auto;
 }
+.people-card {
+	height: 450px;
+	width: 300px;
+	border-radius: 10px;
+	background-color: var(--color);
+	overflow: hidden;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+	margin: 1% 2.5%;
+}
+.people-img {
+	height: 80%;
+	width: 100%;
+	object-fit: cover;
+}
+.people-name {
+	color: var(--text-color);
+	font-weight: 200;
+	margin: 0 2.5%;
+}
+.people-desription {
+	color: var(--text-color);
+	font-weight: 600;
+	font-size: 20px;
+	margin: 0 2.5%;
+}
+
+.photo-card {
+	height: 450px;
+	width: 300px;
+	border-radius: 10px;
+	background-color: var(--color);
+	overflow: hidden;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+	margin: 3% 0; /* Центровка для мелких экранов */
+	display: flex;
+	align-items: center; /* Центрируем контент */
+	justify-content: center; /* Центрируем контент */
+}
+.photo-card:hover {
+	transform: scale(1.025);
+	transition: 0.2s;
+}
+.photo-card:active {
+	transform: scale(0.995);
+	transition: 0.025s;
+	filter: brightness(0.9);
+}
+@media (max-width: 768px) {
+	.photo-card {
+		margin: 3% auto;
+	}
+}
+.gallery-content {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: 0.5s;
+}
+/* Модальное окно */
+.photo-modal {
+	display: none; /* Скрыто по умолчанию */
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); /* Затемнение фона */
+	z-index: 9999;
+	backdrop-filter: blur(3px); /* Размытие фона */
+	-webkit-backdrop-filter: blur(3px);
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+}
+
+/* Контент модального окна */
+.photo-modal-content {
+	position: relative;
+	max-width: 70%;
+	max-height: 70%;
+	margin-bottom: 10%;
+}
+@media (max-width: 874px) {
+	.photo-modal-content {
+		max-width: 100%;
+	}
+}
+
+.photo-modal-content img {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+/* Кнопка закрытия */
+.close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+	z-index: 10000;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 5px 10px;
+	border-radius: 5px;
+}
