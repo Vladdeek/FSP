@@ -16,7 +16,10 @@
         <?php include("ui/header.php");?>
     </header>
     <section>
-        <?php include("ui/slider.php");?>
+         <?php
+            $activeSlide = 5; // Указываем номер активного слайда (начиная с 0)
+            include("ui/slider.php");
+        ?>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-11">
@@ -43,6 +46,5 @@
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/change.theme.script.js"></script>
-    <script src="js/auto.slider.script.js"></script>
 </body>
 </html>

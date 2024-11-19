@@ -26,6 +26,7 @@ function changeTheme() {
 		root.style.setProperty('--text-color', '#f1f1f1') // Инвертированный текст
 		root.style.setProperty('--bg-color', '#121212') // Инвертированный фон
 		root.style.setProperty('--color', '#232323') // Инвертированный цвет
+		root.style.setProperty('--border-color', 'rgba(255, 255, 255, 0.1)')
 
 		darkTheme = true
 	} else if (darkTheme === true) {
@@ -34,6 +35,7 @@ function changeTheme() {
 		root.style.setProperty('--text-color', '#1b1c21') // Текст для дневной темы
 		root.style.setProperty('--color', '#ededed') // Фон для дневной темы
 		root.style.setProperty('--bg-color', '#eaeaea') // Цвет для дневной темы
+		root.style.setProperty('--border-color', 'rgba(0, 0, 0, 0.1)')
 
 		darkTheme = false
 	}

@@ -14,6 +14,7 @@
 		rgb(234, 234, 234) 0%,
 		rgb(227, 255, 251) 100%
 	);
+	--border-color: rgba(0, 0, 0, 0.1);
 }
 body {
 	background-color: var(--bg-color);
@@ -21,13 +22,21 @@ body {
 	color: var(--text-color);
 	font-weight: 400;
 }
-svg {
+svg.logo-svg {
 	height: 50px;
 	width: auto;
 	fill: white;
 }
-svg path:last-of-type {
+svg.logo-svg path:last-of-type {
 	fill: var(--text-color); /* Установите нужный цвет */
+}
+h1 {
+	font-size: 26px;
+	font-weight: 600;
+}
+h2 {
+	font-size: 24px;
+	font-weight: 200;
 }
 .header-box {
 	display: flex;
@@ -78,6 +87,13 @@ a.footer-content:hover {
 	font-weight: 300;
 	line-height: 1.2;
 	margin: 7.5px;
+	color: var(--text-color);
+}
+.branding {
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
 }
 .navigation {
 	margin: 7.5px;
@@ -130,7 +146,7 @@ a.footer-content:hover {
 	border-radius: 20px;
 	overflow: hidden;
 	display: flex;
-	border: solid 1px rgba(0, 0, 0, 0.1);
+	border: solid 1px var(--border-color);
 }
 .slider-info {
 	display: flex;
@@ -201,7 +217,7 @@ a.footer-content:hover {
 .info-card:hover {
 	filter: brightness(1.075);
 	background-color: var(--bg-color);
-	border: solid 1px rgba(0, 0, 0, 0.25);
+	border: solid 1px var(--border-color);
 }
 .card-img {
 	width: 100%;
@@ -269,7 +285,7 @@ a.footer-content:hover {
 	border-radius: 20px;
 	margin: 5% 2.5%;
 	padding: 10px;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+	box-shadow: 5px 5px 5px var(--border-color);
 }
 .card-container#card1 {
 	background-image: var(--card-color1);
@@ -329,7 +345,7 @@ a.footer-content:hover {
 	border-radius: 10px;
 	background-color: var(--color);
 	overflow: hidden;
-	border: solid 1px rgba(0, 0, 0, 0.1);
+	border: solid 1px var(--border-color);
 	margin: 1% 2.5%;
 }
 .people-img {
@@ -355,7 +371,7 @@ a.footer-content:hover {
 	border-radius: 10px;
 	background-color: var(--color);
 	overflow: hidden;
-	border: solid 1px rgba(0, 0, 0, 0.1);
+	border: solid 1px var(--border-color);
 	transition: 0.3s;
 	margin: 3% 0; /* Центровка для мелких экранов */
 	display: flex;
@@ -432,4 +448,45 @@ a.footer-content:hover {
 	background: rgba(0, 0, 0, 0.5);
 	padding: 5px 10px;
 	border-radius: 5px;
+}
+.contact-icon {
+	height: 100%;
+	width: 100%;
+}
+.contact-icon-container {
+	height: 50px;
+	width: 50px;
+	margin: 5%;
+}
+.contact-card {
+	background-color: var(--bg-color);
+	filter: contrast(1.05);
+	height: 100%;
+	width: 100%;
+	padding: 5px;
+	align-items: center;
+	border-radius: 15px;
+	border: solid 1px var(--border-color);
+}
+svg.contact-icon-stroke path {
+	stroke: var(--text-color);
+}
+svg.contact-icon-fill path {
+	fill: var(--text-color);
+}
+.contact-card-info {
+	text-decoration: none;
+	color: var(--text-color);
+	font-size: 16px;
+	font-weight: 200;
+	margin: 0;
+}
+.contact-card-title {
+	color: var(--gradient);
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+}
+a.contact-card-info:hover {
+	text-decoration: underline;
 }
