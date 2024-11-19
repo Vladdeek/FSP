@@ -25,11 +25,12 @@
                 <div class="container">
                     <div class="col-12">
                         <p class="title text-center">Мероприятия</p>
-                        <div class="row">
-                            <?php include("ui/info-card.php");?>
-                            <?php include("ui/info-card.php");?>
-                            <?php include("ui/info-card.php");?>
-                            <?php include("ui/info-card.php");?>
+                        <div class="row justify-content-center">
+                            <div class="col-xl-8 col-sm-10 d-flex justify-content-center flex-column">
+                                <?php include("ui/event-card.php")?>
+                                <?php include("ui/event-card.php")?>
+                                <?php include("ui/event-card.php")?>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -296,6 +296,8 @@ a.footer-content:hover {
 	overflow: hidden;
 	border: solid 1px var(--border-color);
 	margin: 3% auto;
+	cursor: pointer;
+	transition: 0.3s;
 }
 .people-img {
 	height: 80%;
@@ -305,9 +307,18 @@ a.footer-content:hover {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 }
+.people-card:hover {
+	transform: scale(1.025);
+	transition: 0.3s;
+}
 .people-name {
 	color: var(--text-color);
 	font-weight: 200;
+	margin: 0;
+	text-decoration: none;
+	font-size: 15px;
+}
+.pnc {
 	margin: 0 2.5%;
 }
 .people-desription {
@@ -533,4 +544,59 @@ a.contact-card-info:hover {
 .about-info {
 	font-size: 18px;
 	font-weight: 600;
+}
+.event-paragraph,
+.about-paragraph {
+	margin-bottom: 10px;
+}
+.event-date,
+.about-people-position {
+	display: inline-block;
+	background-color: var(--text-color);
+	color: var(--color);
+	border-radius: 10px;
+	border: none;
+	padding: 5px;
+	width: auto;
+	font-weight: 500;
+}
+.event-name,
+.about-people-name {
+	font-size: 30px;
+	font-weight: 300;
+}
+.event-description,
+.about-people-description {
+	font-weight: 200;
+}
+.event-img-container,
+.people-img-container {
+	overflow: hidden;
+	border-radius: 15px;
+}
+img.people-img-container {
+	height: auto;
+	width: 75%;
+	object-fit: cover;
+}
+img.event-img-container {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.event-card {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+	border-radius: 20px;
+	padding: 20px;
+	transition: 0.2s;
+	border: none;
+	cursor: pointer;
+	margin: 3% auto;
+}
+.event-card:hover {
+	filter: brightness(1.075);
+	background-color: var(--bg-color);
+	border: solid 1px var(--border-color);
 }
