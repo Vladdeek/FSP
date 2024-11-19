@@ -22,14 +22,9 @@
         ?>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-11">
-                    <p class="description text-center">
-                        <strong>"Федерация спортивного программирования ЛНР"</strong> - региональное отделение Общероссийской физкультурно-спортивной общественной организации «Федерация спортивного программирования России» по Луганской Народной Республике.
-                    </p> 
-                </div>
                 <div class="container">
                     <div class="col-12">
-                        <p class="title text-start">Новости</p>
+                        <p class="title text-center">Новости</p>
                         <div class="row">
                             <?php include("ui/info-card.php");?>
                             <?php include("ui/info-card.php");?>

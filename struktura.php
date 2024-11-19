@@ -21,18 +21,12 @@
             include("ui/slider.php");
         ?>
         <div class="container">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <?php include("ui/people-card.php");?>
-                    <?php include("ui/people-card.php");?>
-                    <?php include("ui/people-card.php");?>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <?php include("ui/people-card.php");?>
-                    <?php include("ui/people-card.php");?>
-                </div>
+            <div class="row  d-flex justify-content-center">
+                <?php include("ui/people-card.php");?>
+                <?php include("ui/people-card.php");?>
+                <?php include("ui/people-card.php");?>
+                <?php include("ui/people-card.php");?>
+                <?php include("ui/people-card.php");?>
             </div>
         </div>
     </section>

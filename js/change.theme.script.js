@@ -27,6 +27,14 @@ function changeTheme() {
 		root.style.setProperty('--bg-color', '#121212') // Инвертированный фон
 		root.style.setProperty('--color', '#232323') // Инвертированный цвет
 		root.style.setProperty('--border-color', 'rgba(255, 255, 255, 0.1)')
+		root.style.setProperty(
+			'--card-color1',
+			'linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(228, 228, 228) 100%)'
+		)
+		root.style.setProperty(
+			'--card-color2',
+			'linear-gradient(180deg, rgb(34, 44, 84) 0%, rgb(34, 34, 34) 100%)'
+		)
 
 		darkTheme = true
 	} else if (darkTheme === true) {
@@ -36,6 +44,14 @@ function changeTheme() {
 		root.style.setProperty('--color', '#ededed') // Фон для дневной темы
 		root.style.setProperty('--bg-color', '#eaeaea') // Цвет для дневной темы
 		root.style.setProperty('--border-color', 'rgba(0, 0, 0, 0.1)')
+		root.style.setProperty(
+			'--card-color1',
+			'linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(27, 27, 27) 100%)'
+		)
+		root.style.setProperty(
+			'--card-color2',
+			'linear-gradient(0deg,rgb(234, 234, 234) 0%,rgb(227, 255, 251) 100%)'
+		)
 
 		darkTheme = false
 	}

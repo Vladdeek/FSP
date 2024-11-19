@@ -22,61 +22,63 @@
         ?>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-11">
-                    <p class="description text-center">
-                        <strong>"Федерация спортивного программирования ЛНР"</strong> - региональное отделение Общероссийской физкультурно-спортивной общественной организации «Федерация спортивного программирования России» по Луганской Народной Республике.
-                    </p> 
-                </div>
                 <div class="container">
                     <div class="col-12">
-                        <p class="title text-start">Дисциплины</p>
+                        <p class="title text-center">Дисциплины</p>
                         <div class="row">
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-12 d-flex">
-                                        <div class="col-4">
-                                            <div id="desc1" class="card-container text-start">
-                                                <div class="card-title d-flex align-items-center">
-                                                    <img class="card-img-title" src="img/i.webp" alt="">
-                                                    <p id="desc" class="about-info">Программирование алгоритмическое</p>
-                                                </div>
-                                                <p id="desc" class="about-text">Решение группы задач путем написания наиболее оптимальных программных алгоритмов в условиях ограниченного времени</p>
-                                            </div>
-                                            <div id="desc2" class="card-container text-start">
-                                                <div class="card-title d-flex align-items-center">
-                                                    <img class="card-img-title" src="img/i.webp" alt="">
-                                                    <p id="desc" class="about-info">Программирование систем информационной безопасности</p>
-                                                </div>
-                                                <p id="desc" class="about-text">Комплекс соревнований в области кибербезопасности, включающий в себя поиск и устранение системных уязвимостей, отработку кибератак и защиты от них</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-4">
-                                            <div id="desc5" class="card-container text-start">
-                                                <div class="card-title">
-                                                    <img id="desc" class="card-img-title d-flex justify-content-center" src="img/i.webp" alt="">
-                                                    <p id="desc" class="about-info">Продуктовое программирование (хакатон)</p>
-                                                </div>
-                                                <p id="desc" class="about-text">Создание программных продуктов (приложений, сайтов, сервисов), отвечающих заданным требованиям и выполняющих определенные прикладные задачи</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-4">
-                                            <div id="desc3" class="card-container text-start">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card-container text-start">
                                             <div class="card-title d-flex align-items-center">
                                                 <img class="card-img-title" src="img/i.webp" alt="">
-                                                <p id="desc" class="about-info">Программирование робототехники</p>
+                                                <p class="about-info">Программирование алгоритмическое</p>
                                             </div>
-                                            <p id="desc" class="about-text">Написание кода и поведенческих алгоритмов для автономных роботов, соревнующихся по определенным правилам</p>
+                                            <p class="about-text">Решение группы задач путем написания наиболее оптимальных программных алгоритмов в условиях ограниченного времени</p>
                                         </div>
-                                            <div id="desc4" class="card-container text-start">
-                                                <div class="card-title d-flex align-items-center">
-                                                    <img class="card-img-title" src="img/i.webp" alt="">
-                                                    <p id="desc" class="about-info">Программирование БАС</p>
-                                                </div>
-                                                <p id="desc" class="about-text">Написание кода для автономного полета дрона или роя дронов, а также выполнения им поставленных задач в условиях соревновательного полигона</p>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card-container text-start">
+                                            <div class="card-title d-flex align-items-center">
+                                                <img class="card-img-title" src="img/i.webp" alt="">
+                                                <p class="about-info">Программирование систем информационной безопасности</p>
                                             </div>
+                                            <p class="about-text">Комплекс соревнований в области кибербезопасности, включающий в себя поиск и устранение системных уязвимостей, отработку кибератак и защиты от них</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card-container text-start">
+                                            <div class="card-title d-flex align-items-center">
+                                                <img class="card-img-title" src="img/i.webp" alt="">
+                                                <p class="about-info">Продуктовое программирование (хакатон)</p>
+                                            </div>
+                                            <p class="about-text">Создание программных продуктов (приложений, сайтов, сервисов), отвечающих заданным требованиям и выполняющих определенные прикладные задачи</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card-container text-start">
+                                            <div class="card-title d-flex align-items-center">
+                                                <img class="card-img-title" src="img/i.webp" alt="">
+                                                <p class="about-info">Программирование робототехники</p>
+                                            </div>
+                                            <p class="about-text">Написание кода и поведенческих алгоритмов для автономных роботов, соревнующихся по определенным правилам</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card-container text-start">
+                                            <div class="card-title d-flex align-items-center">
+                                                <img class="card-img-title" src="img/i.webp" alt="">
+                                                <p class="about-info">Программирование БАС</p>
+                                            </div>
+                                            <p class="about-text">Написание кода для автономного полета дрона или роя дронов, а также выполнения им поставленных задач в условиях соревновательного полигона</p>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
