@@ -21,33 +21,31 @@
             include("ui/slider.php");
         ?>
         <div class="container">
-            <div class="row">
-                <div class="col-12 d-flex">
-                    <div class="col-4">
-                        <div id="card1" class="card-container text-center">
-                            <p id="card1" class="about-info">12 лет</p>
-                            <p id="card1" class="about-text">Проводим соревнования по спортивному программированию</p>
-                        </div>
-                        <div id="card2" class="card-container text-center">
-                            <p class="about-info">Уровень гостеприимства</p>
-                            <p class="about-text">К каждому мероприятию мы готовимся очень чщательно что бы оставить только положительные эмоции</p>
-                        </div>
+            <div class="bento">
+                <div class="bento__container" variant-1>
+                    <div class="bento__item text-center" style="--rows: span 2; --columns: 1 / -1;">
+                        <p id="card2" class="bento-title">Официальный спорт</p>
+                        <p class="bento-description">С 2022 года спортивное программирование официально признано видом спорта. Федерация получила статус Общероссийской, активно развивается и поддерживается государством, охватывая все регионы.</p>
                     </div>
-                    <div class="col-4">
-                       <div id="card3" class="card-container text-center">
-                            <p class="about-info">10 мероприятий</p>
-                            <p class="about-text">Провели в наших регионах за 2024 год, в рамках развития молодежи</p>
-                       </div>
-                       <div id="card4" class="card-container text-center">
-                            <p class="about-info">5 лет</p>
-                            <p class="about-text">Спортивное программирование признано официальным видом спорта в странах РФ</p>
-                       </div>
+                    <div id="card1" class="bento__item text-center" style="--rows: span 2;">
+                        <p id="card1" class="bento-title">2 года в реестре</p>
+                        <p id="card1" class="bento-description">Надежный статус и поддержка, <br>признано на государственном уровне.</p>
                     </div>
-                    <div class="col-4">
-                        <div id="card5" class="card-container text-center">
-                            <p class="about-info">Будущее</p>
-                            <p class="about-text">За IT будущее и такой новый вид спорта как спортивное программирование обеспечит развитие интереса и навыков новых поколений программистов, за нами будущее</p>
-                        </div>
+                    <div class="bento__item" style="--rows: span 2; --columns: span 2;">
+                        <p class="bento-title">Общероссийская федерация</p>
+                        <p class="bento-description">Статус подтвержден в 2023 году, признание на федеральном уровне.</p>
+                    </div>
+                    <div class="bento__item text-center" style="--columns: 1 / -1;">
+                        <p id="card2" class="bento-title">Спортивное программирование</p>
+                        <p class="bento-description">Ведем с 2021 года, основатели нового направления в спорте.</p>
+                    </div>
+                    <div class="bento__item" style="--columns: span 2;">
+                        <p class="bento-title">Аккредитация в МЛТ</p>
+                        <p class="bento-description">С 2024 года, шаг в международное развитие и поддержку. В 2024 году продолжается расширение влияния.</p>
+                    </div>
+                    <div id="card1" class="bento__item text-center">
+                        <p id="card1" class="bento-title">85 регионов</p>
+                        <p id="card1" class="bento-description">Федерация с общероссийским охватом, поддержка в каждом регионе.</p>
                     </div>
                 </div>
             </div>
@@ -65,6 +63,22 @@
                     <div class="info-container">
                         <p class="about-date">16 июня 2022</p>
                         <p class="about-description">На площадке ПМЭФ Минспорта и Минцифры подписали меморандум о сотрудничестве в целях развития и популяризации нового вида спорта «спортивное программирование»</p>
+                    </div>
+                    <div class="info-container">
+                        <p class="about-date">28 декабря 2022</p>
+                        <p class="about-description">Состоялось первое учредительное собрание Отделения о вступлении в Общероссийскую физкультурно-спортивную общественную организацию «Федерация спортивного программирования» и об избрании Руководителя отделения.</p>
+                    </div>
+                    <div class="info-container">
+                        <p class="about-date">17 февраля 2023</p>
+                        <p class="about-description">ФСП получила статус Общероссийской спортивной федерации</p>
+                    </div>
+                    <div class="info-container">
+                        <p class="about-date">2 августа 2023</p>
+                        <p class="about-description">Федерация включена в реестр социально ориентированных некоммерческих организаций (СОНКО)</p>
+                    </div>
+                    <div class="info-container">
+                        <p class="about-date">28 сентября 2023</p>
+                        <p class="about-description">Аккредитовано Региональное отделение Общероссийской физкультурно-спортивной общественной организации «Федерация спортивного программирования» по Луганской Народной Республике по виду спорта «спортивное программирование»</p>
                     </div>
                 </div>
             </div>
